@@ -10,6 +10,23 @@ public class DoublyLinkedList<T> implements Iterable<T> {
     private Node<T> head = null;
     private Node<T> tail = null;
 
+    private class Node<T> {
+        private T data;
+        private Node<T> next;
+        private Node<T> prev;
+
+        public Node(T data, Node<T> next, Node<T> prev) {
+            this.data = data;
+            this.next = next;
+            this.prev = prev;
+        }
+
+        @Override
+        public String toString() {
+            return data.toString();
+        }
+    }
+
     public void clear() {
         Node<T> curr = head;
         while (curr != null) {
@@ -226,23 +243,6 @@ public class DoublyLinkedList<T> implements Iterable<T> {
                 return r;
             }
         };
-    }
-
-    private static class Node<T> {
-        private T data;
-        private Node<T> next;
-        private Node<T> prev;
-
-        public Node(T data, Node<T> next, Node<T> prev) {
-            this.data = data;
-            this.next = next;
-            this.prev = prev;
-        }
-
-        @Override
-        public String toString() {
-            return data.toString();
-        }
     }
 
     @Override
