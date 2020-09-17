@@ -1,4 +1,4 @@
-package java.com.pushpanjaykumar.algo.datastructures.queue;
+package main.java.com.pushpanjaykumar.algo.datastructures.queue;
 
 import java.util.Iterator;
 import java.util.LinkedList;

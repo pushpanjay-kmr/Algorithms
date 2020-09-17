@@ -1,6 +1,5 @@
-package java.com.pushpanjaykumar.algo.datastructures.dynamicarray;
+package main.java.com.pushpanjaykumar.algo.datastructures.dynamicarray;
 
-import java.util.Arrays;
 import java.util.Iterator;
 
 /**

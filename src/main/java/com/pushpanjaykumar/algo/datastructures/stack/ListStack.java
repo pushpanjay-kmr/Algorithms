@@ -1,4 +1,4 @@
-package java.com.pushpanjaykumar.algo.datastructures.stack;
+package main.java.com.pushpanjaykumar.algo.datastructures.stack;
 
 import java.util.EmptyStackException;
 import java.util.Iterator;

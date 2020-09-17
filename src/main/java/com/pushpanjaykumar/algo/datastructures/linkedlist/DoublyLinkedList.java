@@ -1,4 +1,4 @@
-package java.com.pushpanjaykumar.algo.datastructures.linkedlist;
+package main.java.com.pushpanjaykumar.algo.datastructures.linkedlist;
 
 import java.util.Iterator;
 

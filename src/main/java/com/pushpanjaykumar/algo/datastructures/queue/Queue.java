@@ -1,4 +1,4 @@
-package java.com.pushpanjaykumar.algo.datastructures.queue;
+package main.java.com.pushpanjaykumar.algo.datastructures.queue;
 
 /**
  * @author pushpanjay.kumar
