@@ -135,7 +135,7 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         return last;
     }
 
-    public T remove(Node<T> node) {
+    private T remove(Node<T> node) {
         if (node == null) {
             throw new IllegalArgumentException("Illegal Argument " + node.data);
         }
