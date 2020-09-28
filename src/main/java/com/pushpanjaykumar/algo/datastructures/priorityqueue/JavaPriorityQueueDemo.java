@@ -11,6 +11,7 @@ public class JavaPriorityQueueDemo {
         pQ.add(10);
         pQ.add(20);
         pQ.add(30);
+        pQ.add(5);
 
         System.out.println(pQ.peek());
         System.out.println(pQ.poll());
